@@ -18,7 +18,8 @@ use yii\filters\AccessControl;
  */
 class SiteController extends Controller
 {
-    /**
+    public $layout = 'site';
+	/**
      * @inheritdoc
      */
     public function behaviors()
