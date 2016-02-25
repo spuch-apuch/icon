@@ -11,6 +11,7 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
+    'language'   => 'ru',
     'components' => [
         'user' => [
             'identityClass' => 'common\models\User',
@@ -33,6 +34,11 @@ return [
 			'showScriptName'  => false,
 			'rules'           => require(__DIR__ . '/routes.php'),
 		],
+    ],
+    'modules' => [
+        'profile' => [
+            'class' => 'app\modules\profile\Module',
+        ],
     ],
     'params' => $params,
 ];
