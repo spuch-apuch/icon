@@ -1,0 +1,215 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?xz78q6');
+	src:url('../fonts/icomoon.eot?xz78q6#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.svg?xz78q6#icomoon') format('svg'),
+		url('../fonts/icomoon.woff?xz78q6') format('woff'),
+		url('../fonts/icomoon.ttf?xz78q6') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-YouTube:before {
+	content: "\e000";
+}
+.icon-Yandex:before {
+	content: "\e001";
+}
+.icon-Vkontakte:before {
+	content: "\e002";
+}
+.icon-VK:before {
+	content: "\e003";
+}
+.icon-vimeo:before {
+	content: "\e004";
+}
+.icon-twitter:before {
+	content: "\e005";
+}
+.icon-tumblr:before {
+	content: "\e006";
+}
+.icon-SoundCloud:before {
+	content: "\e009";
+}
+.icon-Skype:before {
+	content: "\e00a";
+}
+.icon-Share:before {
+	content: "\e00b";
+}
+.icon-RSS:before {
+	content: "\e00c";
+}
+.icon-Pinterest:before {
+	content: "\e010";
+}
+.icon-MySpace:before {
+	content: "\e013";
+}
+.icon-Linkedin:before {
+	content: "\e015";
+}
+.icon-LiveJournal:before {
+	content: "\e016";
+}
+.icon-lastfm:before {
+	content: "\e017";
+}
+.icon-Instagram:before {
+	content: "\e019";
+}
+.icon-instagram-alt:before {
+    content: "\e01a";
+}
+.icon-google:before {
+	content: "\e01b";
+}
+.icon-GitHubcircle:before {
+	content: "\e01d";
+}
+.icon-FourSquare:before {
+	content: "\e01e";
+}
+.icon-flickr:before {
+	content: "\e01f";
+}
+.icon-facebook:before {
+	content: "\e021";
+}
+.icon-facebook-alt:before {
+    content: "\e022";
+}
+.icon-Email:before {
+	content: "\e023";
+}
+.icon-DropBox:before {
+	content: "\e024";
+}
+.icon-Blogspot:before {
+	content: "\e025";
+}
+.icon-YouTubeplay:before {
+	content: "\e027";
+}
+.icon-logo-top-left:before {
+    content: "\e028";
+}
+.icon-logo-top-right:before {
+    content: "\e029";
+}
+.icon-logo-top-center:before {
+    content: "\e02a";
+}
+.icon-logo-mobile:before {
+    content: "\e02b";
+}
+.icon-logo-box-left:before {
+    content: "\e02c";
+}
+.icon-logo-box-right:before {
+    content: "\e02d";
+}
+.icon-logo-2line-center:before {
+    content: "\e02e";
+}
+.icon-logo-2line-left:before {
+    content: "\e02f";
+}
+.icon-logo-2line-right:before {
+    content: "\e030";
+}
+.icon-logo-fixed-left:before {
+    content: "\e031";
+}
+.icon-logo-fixed-right:before {
+    content: "\e032";
+}
+.icon-logo-bottom:before {
+    content: "\e033";
+}
+.icon-format-vertical:before {
+    content: "\e034";
+}
+.icon-format-box:before {
+    content: "\e035";
+}
+.icon-format-horisontal:before {
+    content: "\e036";
+}
+.icon-type-tile:before {
+    content: "\e037";
+}
+.icon-type-tile-room:before {
+    content: "\e038";
+}
+.icon-type-presentation:before {
+    content: "\e039";
+}
+.icon-type-landing:before {
+    content: "\e03a";
+}
+.icon-type-slider:before {
+    content: "\e03b";
+}
+.icon-size-large:before {
+    content: "\e03c";
+}
+.icon-size-average:before {
+    content: "\e03d";
+}
+.icon-size-small:before {
+    content: "\e03e";
+}
+.icon-proportion-tile:before {
+    content: "\e03f";
+}
+.icon-proportion-different:before {
+    content: "\e040";
+}
+.icon-proportion-equal:before {
+    content: "\e041";
+}
+.icon-help-faq:before {
+    content: "\e042";
+}
+.icon-help-question:before {
+    content: "\e043";
+}
+.icon-help-video:before {
+    content: "\e044";
+}
+.icon-help-tips:before {
+    content: "\e045";
+}
+.icon-grid-tile:before {
+    content: "\e046";
+}
+.icon-grid-landing:before {
+    content: "\e047";
+}
+.icon-grid-slider:before {
+    content: "\e048";
+}
+.icon-grid-presentation:before {
+    content: "\e049";
+}
+.icon-grid-tile-room:before {
+    content: "\e04a";
+}
