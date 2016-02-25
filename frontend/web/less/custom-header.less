@@ -1,0 +1,136 @@
+/* Шапка, меню */
+.navbar {
+  margin-bottom: 10px;
+  border: 0;
+  -webkit-box-shadow: 0px -1px 0px rgba(0,0,0,0.1);
+  box-shadow: inset 0px -1px 0px rgba(0,0,0,0.1);
+  border-radius: 0;
+}
+.navbar-right {
+  margin-right: 0;
+}
+.navbar-brand {
+  font-family: 'Proxima Nova Extrabold';
+  font-size: 26px;
+  text-transform: uppercase;
+  padding: 15px 10px;
+  float: right;
+}
+.navbar-nav {
+  font-family: 'Proxima Nova Semibold';
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+}
+.navbar-collapse {
+  border: 0;
+  box-shadow: none;
+}
+.navbar-collapse.collapsing,
+.navbar-collapse.in {
+  background: #000;
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.navbar-collapse.hide-mb-lg {
+  display: none !important;
+}
+.navbar-collapse.hide-mb-lg.collapsing,
+.navbar-collapse.hide-mb-lg.in {
+  display: block !important;
+}
+.navbar-collapse.collapsing .navbar-cell,
+.navbar-collapse.in .navbar-cell {
+  height: 95vh;
+  width: 200vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* todo удалить после слияния */
+.navbar-collapse.collapsing .navbar-cell .navbar-nav,
+.navbar-collapse.in .navbar-cell .navbar-nav {
+  height: auto;
+  display: block;
+  width: auto;
+  margin: 0;
+}
+/* end todo */
+.navbar-collapse.collapsing .navbar-nav,
+.navbar-collapse.in .navbar-nav {
+  height: 95vh;
+  width: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+.navbar-default .navbar-collapse.collapsing .navbar-nav a,
+.navbar-default .navbar-collapse.in .navbar-nav a {
+  color: #fff;
+  font-size: 32px;
+  padding: 30px 0;
+}
+/* Кнопка меню "Гамбургер" */
+.navbar-toggle{
+  padding: 15px 13px 16px 13px;
+  margin: 0;
+  border-radius: 0;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+  z-index: 1;
+}
+.navbar-toggle .icon-bar {
+  height: 3px;
+  border-radius: 0;
+}
+.navbar-toggle .top-line {
+  top: 0;
+  -webkit-transition-property: top,-webkit-transform;
+  transition-property: top,transform;
+}
+.navbar-toggle .bottom-line {
+  bottom: 0;
+  -webkit-transition-property: bottom,-webkit-transform;
+  transition-property: bottom,transform;
+}
+.navbar-toggle .top-line,
+.navbar-toggle .bottom-line {
+  -webkit-transition-duration: .3s,.3s;
+  transition-duration: .3s,.3s;
+  -webkit-transition-delay: .3s,0s;
+  transition-delay: .3s,0s;
+}
+.navbar-toggle .center-line {
+  -webkit-transition: background 0s .3s;
+  transition: background 0s .3s;
+}
+.navbar-toggle.active .top-line {
+  top: 7px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.navbar-toggle.active .bottom-line {
+  bottom: 7px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.navbar-default .navbar-toggle:focus{
+  background-color: inherit;
+}
+.navbar-default .navbar-toggle.active {
+  background-color: #000;
+}
+.navbar-default .navbar-toggle.active .top-line,
+.navbar-default .navbar-toggle.active .bottom-line {
+  -webkit-transition-delay: 0s,.3s;
+  transition-delay: 0s,.3s;
+  background-color: #fff;
+}
